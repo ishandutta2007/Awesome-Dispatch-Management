@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Dispatch-Management?style=flat-square" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Dispatch-Management?style=flat-square" alt="GitHub_Stars" />
   <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Dispatch-Management?style=flat-square" alt="GitHub forks" />
   <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Dispatch-Management?style=flat-square" alt="License" />
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -55,9 +55,9 @@ Below is a curated list of top commercial Field Service Management (FSM) platfor
 
 ## 🔓 Open-Source GitHub Repositories
 
-Explore active self-hostable open-source dispatch boards, emergency CAD platforms, and field service frameworks. Repositories are sorted by **GitHub Star Count** (descending): ⭐
+Explore active self-hostable open-source dispatch boards, emergency CAD platforms, and field service frameworks. Repositories are sorted by **GitHub Stars_Count** (descending): ⭐
 
-| Repository 📦 | GitHub Stars 🌟 | Key Tech Stack 💻 | Description & Focus 📝 |
+| Repository 📦 | GitHub_Stars 🌟 | Key Tech Stack 💻 | Description & Focus 📝 |
 | :--- | :--- | :--- | :--- |
 | **[Resgrid Core](https://github.com/Resgrid/Core)** | <a href="https://github.com/Resgrid/Core/stargazers"><img src="https://img.shields.io/github/stars/Resgrid/Core?style=social&color=white" alt="Resgrid Core Stars"/></a> | C#, .NET, SQL Server | Open-source Computer Aided Dispatch (CAD), emergency dispatch, personnel, unit tracking, and AVL platform for first responders and service teams. |
 | **[OCA Field Service](https://github.com/OCA/field-service)** | <a href="https://github.com/OCA/field-service/stargazers"><img src="https://img.shields.io/github/stars/OCA/field-service?style=social&color=white" alt="OCA Field Service Stars"/></a> | Python, Odoo | Complete suite of Odoo modules for field service logistics, worker dispatching, inventory control, and service locations. |
