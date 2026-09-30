@@ -1,219 +1,105 @@
-# Awesome-Dispatch-Management
-
-## Top Dispatch Management Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Field Service Dispatch, Technician Scheduling & Work Order Management*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Dispatch Management**. These tools help field service businesses assign jobs to technicians, optimize routes, track work orders, and manage the full lifecycle from customer call to invoicing.
-
-
-
-**Examples** include ServiceTitan, Housecall Pro, Jobber, Workiz, Zuper, FieldPulse, Commusoft, FieldEdge, FieldEZ, and Kickserv (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom dispatch boards, and transparent field operations — ideal for HVAC, plumbing, electrical, and general service businesses seeking vendor independence. The open-source ecosystem is anchored by **open-fieldservice** (self-hostable scheduler with dispatch board), **Nexus Field Service** (framework-agnostic engine), and **Resgrid Core** (CAD for first responders), with strong coverage in CMMS platforms and ERPNext integrations.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[ServiceTitan](https://www.servicetitan.com/)**  
-
-  Enterprise-grade field service platform for HVAC, plumbing, and electrical contractors. The industry standard for established operations with $5M+ revenue, handling complex dispatch, maintenance contracts, and multi-location operations . Pricing ranges from $100–400 per user/month .
-
-
-
-- **[Housecall Pro](https://www.housecallpro.com/)**  
-
-  Popular field service management platform for small to mid-sized home service businesses. Competes directly with Jobber, offering scheduling, dispatching, GPS tracking, invoicing, and credit card processing . Pricing starts around $79–279 per user/month .
-
-
-
-- **[Jobber](https://getjobber.com/)**  
-
-  Leading field service management software for SMEs with 5–30 technicians. Known for fast setup, low learning curve, and predictable pricing ($69–279/user/month) . Covers scheduling, dispatching, invoicing, and customer communication .
-
-
-
-- **[Workiz](https://www.workiz.com/)**  
-
-  Field service management platform particularly popular for locksmith and cleaning businesses. Pricing $65–198 per user/month . Features cloud-based invoicing, scheduling, SMS messaging, and CRM .
-
-
-
-- **[Zuper](https://www.zuper.co/)**  
-
-  AI-powered field service management platform targeting emerging markets including India and Africa. Pricing $35–99 per user/month . Features automated scheduling, dispatching, route optimization, and mobile field execution .
-
-
-
-- **[FieldPulse](https://www.fieldpulse.com/)**  
-
-  All-in-one field service platform with scheduling, dispatching, estimating, invoicing, and customer management (CRM) .
-
-
-
-- **[Commusoft](https://www.commusoft.co.uk/)**  
-
-  Field service management software for service contractors with job management, scheduling, and invoicing.
-
-
-
-- **[FieldEdge](https://www.fieldedge.com/)**  
-
-  Field service management platform designed for residential HVAC, plumbing, and electrical contractors. Supports 30-day deployment for small platforms and integrates natively with QuickBooks .
-
-
-
-- **[FieldEZ](https://www.fieldez.com/)**  
-
-  Field service management software with scheduling, dispatching, and mobile workforce management.
-
-
-
-- **[Kickserv](https://www.kickserv.com/)**  
-
-  Field service software providing sales, estimates, job tracking, and invoicing for mobile field service teams .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[open-fieldservice](https://github.com/clawnify/open-fieldservice)**  
-
-  Open-source, self-hostable field-service scheduler positioned as an alternative to ServiceTitan or Jobber for pest control, HVAC, plumbing, and similar industries . Built with Preact + TypeScript + Vite on the front end, a Hono REST API on the back, and Cloudflare D1 for storage. Ships with the full back office: jobs, customer CRM, technicians, invoices, materials, and a weekly calendar. The **Atlas** fork adds a visual reskin and a **Dispatch board** — technician rows crossed with a 7am–7pm timeline where unassigned jobs sit in a left rail and drag-and-drop assigns and schedules them in one motion .
-
-
-
-- **[Nexus Field Service](https://packagist.org/packages/azaharizaman/nexus-field-service)**  
-
-  Framework-agnostic field service management engine for work orders, technician dispatch, mobile job execution, service contracts, and SLA tracking . Provides work order lifecycle management (NEW → SCHEDULED → IN_PROGRESS → COMPLETED → VERIFIED), intelligent technician assignment based on skills, proximity, and capacity, service contract management with SLA deadline tracking, mobile job execution with offline sync, parts consumption with van stock waterfall logic, and customer signature capture. Three tiers: Basic (manual assignment), Service Contracts (preventive maintenance automation), and Enterprise (ML-powered assignment, VRP route optimization, cryptographic timestamp signing) .
-
-
-
-- **[Resgrid Core](https://github.com/Resgrid/Core)**  
-
-  Complete open-source computer aided dispatch (CAD), personnel, shift management, AVL, and emergency management platform powering Resgrid.com . Features personnel management with certifications and status, unit support for apparatus and teams, computer aided dispatch for creating calls/incidents and dispatching personnel, duty shift system with signup shifts and switch trading, inventory management, mobile apps for Google Play and Apple App Store, and a full API . Apache-2.0 licensed. While designed for first responders, its dispatch and scheduling architecture is adaptable for field service operations .
-
-
-
-- **[FSM for ERPNext](https://github.com/github.com/fsm)**  
-
-  100% open-source Field Service Management app for ERPNext — a simple, modern, and powerful solution designed to manage end-to-end field service operations . Integrates natively with ERPNext's accounting, inventory, and CRM modules.
-
-
-
-- **[Geoclarity](https://github.com/babupriyavrat/Geoclarity)**  
-
-  Open-source Field Service Management System intended to run on your own enterprise without external vendor requirements . Includes mobile Android code (built in Eclipse) and web interface code under RoofZouk-1.0. Designed for enterprises that want full control over customer-centric data .
-
-
-
-- **[FieldOps AI](https://github.com/DanielDemoz/fieldops-ai)**  
-
-  Smart scheduling, job costing, and field-service management platform for Canadian SMBs (construction, HVAC, electrical, plumbing) . FastAPI backend with Streamlit dashboard, OR-Tools routing for intelligent job scheduling, GPS-aware time tracking, inventory alerts, automated PDF invoicing, and Prophet-based cash-flow forecasting. SQLite for development with PostgreSQL-ready architecture .
-
-
-
-- **[Field Service App (Laravel/Flutter)](https://github.com/topics/field-service-management)**  
-
-  Field service management app for task tracking, reporting, and analytics built with Laravel and Flutter . Mobile-first design for technicians with backend for dispatch and reporting.
-
-
-
-- **[Field Operations MCP](https://github.com/topics/field-service-management)**  
-
-  Field operations over MCP (Model Context Protocol) with constraint-based scheduling on a deterministic solver, manageable from Claude or ChatGPT . Matches crews to jobs by location, skills, and availability for booking, work orders, dispatch, CRM, and fleet management (HVAC, plumbing, electrical, home services).
-
-
-
-- **[Desktop Field Service App](https://github.com/topics/field-service-management)**  
-
-  Desktop field service management app with job board, wizard, draft auto-save, proof attachments, dispute/resolve workflow, and overdue detection. Built with Tauri v2, SvelteKit 5, and SQLite .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Atlas CMMS** — Open-source CMMS with work orders, preventive maintenance, asset management, inventory control, and mobile app . Features work request system via QR code scanning, automated PM scheduling, and parts inventory tracking. GPLv3 licensed with self-hosted or cloud options .
-
-- **Shesha Framework** — Open-source low-code framework for .NET developers that can be configured to build field service management applications with drag-and-drop form builder, dynamic CRUD APIs, and admin panels . GPLv3 or Apache 2.0 licensed depending on version .
-
-- **Platelet** — Offline-first, cloud-backed dispatch software for couriers and coordinators, developed for Blood Bikers in the UK. Can be deployed to AWS using Amplify or used fully offline .
-
-
-
-**Frameworks for building custom dispatch solutions**: Combine **open-fieldservice** for a self-hosted scheduler with a drag-and-drop dispatch board, **Nexus Field Service** for framework-agnostic work order and SLA engine capabilities, and **FSM for ERPNext** for ERP-integrated field operations. Use **FieldOps AI** for route optimization (OR-Tools) and cash-flow forecasting. For first-responder-grade CAD, **Resgrid Core** provides battle-tested dispatch and personnel management. Note that true enterprise dispatch platforms with complex maintenance contract hierarchies, multi-location operations, and deep QuickBooks integration remain primarily commercial territory; open-source stacks provide strong scheduling, dispatch board, and work order foundations that require integration for complete field service management.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Dispatch management tools handle customer data, service histories, and payment information. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations (GDPR, CCPA).
-
-- Open-source dispatch platforms are significantly less mature than commercial offerings for complex HVAC/plumbing service businesses. Evaluate gaps in maintenance contract management, multi-location hierarchies, and accounting integrations before deployment.
-
-- The open-source ecosystem provides strong dispatch boards, work order engines, and route optimization foundations, but full enterprise field service management with complex contract hierarchies and deep accounting integration remains primarily a commercial offering.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Dispatch Management Banner" width="100%" />
+</p>
+
+# 🚚 Awesome Dispatch Management ⚡
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Dispatch-Management?style=flat-square" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Dispatch-Management?style=flat-square" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Dispatch-Management?style=flat-square" alt="License" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> **Curated directory of SaaS products, open-source software, and developer tools for field service dispatch, technician scheduling, GPS route optimization, and work order management.** 🛠️📱
 
 ---
 
+## 📌 Table of Contents
+- [📊 Market Overview & Industry Insights](#-market-overview--industry-insights)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Repositories](#-open-source-github-repositories)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
+---
 
-**Made for field service managers, dispatchers, HVAC/plumbing contractors, and service business operators.**  
+## 📊 Market Overview & Industry Insights
 
-Let's make dispatch management more open, transparent, and efficient.
+> 💡 **Market Size & Structure**: The global Field Service & Dispatch Management software market is estimated at **~$6.5 Billion (2026)** and projected to reach **~$12.5 Billion by 2030** (CAGR of ~12.5%).  
+> 🧩 **Market Concentration**: The sector is **highly fragmented**, characterized by regional contractors, niche trade verticals (HVAC, plumbing, electrical, locksmith, first responders), and a mix of enterprise platforms alongside thousands of independent SMBs. While enterprise platforms like ServiceTitan lead mid-to-large operations, no single player dominates the entire ecosystem, creating immense opportunity for vertical SaaS and open-source solutions.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+Below is a curated list of top commercial Field Service Management (FSM) platforms, sorted by **company scale (revenue / valuation)** in descending order: 📈
+
+| Platform 🚀 | Scale / Revenue / Valuation 💰 | Monthly Starting Pricing 💵 | Free Tier / Free Trial Limit 🎁 | Best For / Key Features 🛠️ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[ServiceTitan](https://www.servicetitan.com/)** | **~$1.06B Revenue** / ~$5.3B Valuation | **$245 / tech / month** | **No Free Trial** (Personalized live demo only) | Enterprise HVAC, plumbing, & electrical contractors. Complex dispatch, payroll, multi-location ops. |
+| **[Housecall Pro](https://www.housecallpro.com/)** | **~$600M ARR** / ~$1.1B Valuation | **$59 / month** (Basic tier) | **14-Day Free Trial** (Full access to core scheduling & dispatch) | Small to mid-sized home service businesses. Easy scheduling, GPS tracking, card processing. |
+| **[Jobber](https://getjobber.com/)** | **~$150M ARR** / ~$1.0B+ Valuation | **$49 / month** (Core plan) | **14-Day Free Trial** (No credit card required) | Mobile service businesses (5–30 techs). Rapid setup, quoting, dispatching, and invoicing. |
+| **[FieldEdge](https://www.fieldedge.com/)** | **~$30M Revenue** (Acquired by Xplor) | **$100 / user / month** | **No Free Trial** (Guided product demo upon request) | Residential HVAC & plumbing pros needing deep real-time QuickBooks integration. |
+| **[Workiz](https://www.workiz.com/)** | **~$25M Revenue** (Private) | **$65 / month** (Lite plan) | **7-Day Free Trial** (Free tier available for up to 2 users with limited jobs) | Locksmith, carpet cleaning, & field service teams. Built-in VoIP phone system & SMS dispatching. |
+| **[Zuper](https://www.zuper.co/)** | **~$20M Revenue** (Private) | **$35 / user / month** | **14-Day Free Trial** (Full platform access for test users) | AI-powered field service management, automated dispatching, and mobile workforce execution. |
+| **[Commusoft](https://www.commusoft.co.uk/)** | **~$15M Revenue** (Private) | **$39 / user / month** | **14-Day Free Trial** (Trial environment setup via demo request) | Service contractors needing end-to-end job management, customer portals, & SLA tracking. |
+| **[FieldPulse](https://www.fieldpulse.com/)** | **~$10M Revenue** (Private) | **$99 / month** (Includes 1 full user) | **14-Day Free Trial** (Full feature access, no credit card required) | All-in-one mobile & desktop FSM app with customer CRM, estimates, and electronic signatures. |
+| **[FieldEZ](https://www.fieldez.com/)** | **~$8M Revenue** (Private) | **$15 / user / month** | **14-Day Free Trial** (Available for field team testing) | Cost-effective mobile workforce management, automated dispatch, and field attendance tracking. |
+| **[Kickserv](https://www.kickserv.com/)** | **~$5M Revenue** (Private) | **$47 / month** (Lite plan) | **Free Forever Plan** (Up to 2 users, basic scheduling & invoicing) | Small field service businesses wanting simple job tracking, sales estimates, and customer invoicing. |
+
+---
+
+## 🔓 Open-Source GitHub Repositories
+
+Explore active self-hostable open-source dispatch boards, emergency CAD platforms, and field service frameworks. Repositories are sorted by **GitHub Star Count** (descending): ⭐
+
+| Repository 📦 | GitHub Stars 🌟 | Key Tech Stack 💻 | Description & Focus 📝 |
+| :--- | :--- | :--- | :--- |
+| **[Resgrid Core](https://github.com/Resgrid/Core)** | <a href="https://github.com/Resgrid/Core/stargazers"><img src="https://img.shields.io/github/stars/Resgrid/Core?style=social&color=white" alt="Resgrid Core Stars"/></a> | C#, .NET, SQL Server | Open-source Computer Aided Dispatch (CAD), emergency dispatch, personnel, unit tracking, and AVL platform for first responders and service teams. |
+| **[OCA Field Service](https://github.com/OCA/field-service)** | <a href="https://github.com/OCA/field-service/stargazers"><img src="https://img.shields.io/github/stars/OCA/field-service?style=social&color=white" alt="OCA Field Service Stars"/></a> | Python, Odoo | Complete suite of Odoo modules for field service logistics, worker dispatching, inventory control, and service locations. |
+| **[EasyDispatch](https://github.com/alibaba/easydispatch)** | <a href="https://github.com/alibaba/easydispatch/stargazers"><img src="https://img.shields.io/github/stars/alibaba/easydispatch?style=social&color=white" alt="EasyDispatch Stars"/></a> | Python, Vue, C++ | Real-time field service dispatching and vehicle routing problem (VRP) solver engine developed by Alibaba. |
+| **[open-fieldservice](https://github.com/clawnify/open-fieldservice)** | <a href="https://github.com/clawnify/open-fieldservice/stargazers"><img src="https://img.shields.io/github/stars/clawnify/open-fieldservice?style=social&color=white" alt="open-fieldservice Stars"/></a> | TypeScript, Preact, Hono, Cloudflare D1 | Self-hostable field-service scheduler with drag-and-drop dispatch board, CRM, and invoicing — direct alternative to Jobber/ServiceTitan. |
+| **[FieldOps AI](https://github.com/DanielDemoz/fieldops-ai)** | <a href="https://github.com/DanielDemoz/fieldops-ai/stargazers"><img src="https://img.shields.io/github/stars/DanielDemoz/fieldops-ai?style=social&color=white" alt="FieldOps AI Stars"/></a> | Python, FastAPI, Streamlit, OR-Tools | Smart scheduling, job costing, and field-service platform with OR-Tools route optimization and Prophet cash-flow forecasting. |
+| **[Field Service App](https://github.com/raflizocky/field-service-management)** | <a href="https://github.com/raflizocky/field-service-management/stargazers"><img src="https://img.shields.io/github/stars/raflizocky/field-service-management?style=social&color=white" alt="Field Service App Stars"/></a> | PHP, Laravel, Flutter | Mobile-first field service management app for technician task tracking, GPS reporting, and dispatcher dashboard analytics. |
+| **[Nexus Field Service](https://packagist.org/packages/azaharizaman/nexus-field-service)** | <a href="https://github.com/azaharizaman/nexus-field-service/stargazers"><img src="https://img.shields.io/github/stars/azaharizaman/nexus-field-service?style=social&color=white" alt="Nexus Field Service Stars"/></a> | PHP, Framework-Agnostic | Headless field service engine managing work order lifecycles, SLA contract tracking, van stock waterfall logic, and VRP route assignment. |
+| **[FSM for ERPNext](https://github.com/Beveren-Software-Inc/Field_Service_Management)** | <a href="https://github.com/Beveren-Software-Inc/Field_Service_Management/stargazers"><img src="https://img.shields.io/github/stars/Beveren-Software-Inc/Field_Service_Management?style=social&color=white" alt="FSM for ERPNext Stars"/></a> | Python, JavaScript, Frappe | Open-source Field Service Management integration for ERPNext — managing service orders, maintenance, and field technician dispatching. |
+| **[Geoclarity](https://github.com/babupriyavrat/Geoclarity)** | <a href="https://github.com/babupriyavrat/Geoclarity/stargazers"><img src="https://img.shields.io/github/stars/babupriyavrat/Geoclarity?style=social&color=white" alt="Geoclarity Stars"/></a> | Java, Android, Web | Enterprise self-hosted field service management system with mobile Android application and central dispatch console. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome and greatly appreciated! 💖
+
+1. **Fork** the repository.
+2. **Create a new branch** (`git checkout -b feature/add-new-tool`).
+3. **Add/Edit entries** in `README.md` (ensure formatting consistency).
+4. **Submit a Pull Request** with a detailed summary of your changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your field service research, software evaluation, or open-source projects, please consider supporting us:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork & Share** with your developer and operations networks.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Dispatch-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Dispatch-Management&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list and does not constitute official financial, technical, or legal endorsement.
+- SaaS prices, free trials, and valuations are subject to change by respective vendors.
+- When self-hosting open-source dispatch tools handling customer and location data, ensure proper security hardening and regulatory compliance (GDPR/CCPA).
