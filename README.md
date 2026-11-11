@@ -50,6 +50,7 @@ Below is a curated list of top commercial Field Service Management (FSM) platfor
 | **[FieldPulse](https://www.fieldpulse.com/)** | **~$10M Revenue** (Private) | **$99 / month** (Includes 1 full user) | **14-Day Free Trial** (Full feature access, no credit card required) | All-in-one mobile & desktop FSM app with customer CRM, estimates, and electronic signatures. |
 | **[FieldEZ](https://www.fieldez.com/)** | **~$8M Revenue** (Private) | **$15 / user / month** | **14-Day Free Trial** (Available for field team testing) | Cost-effective mobile workforce management, automated dispatch, and field attendance tracking. |
 | **[Kickserv](https://www.kickserv.com/)** | **~$5M Revenue** (Private) | **$47 / month** (Lite plan) | **Free Forever Plan** (Up to 2 users, basic scheduling & invoicing) | Small field service businesses wanting simple job tracking, sales estimates, and customer invoicing. |
+| **[Genaya](https://genaya.com/)** | **Early-stage, private** | **$99 / month** (Individual plan, 1 user) | **14-Day Free Trial** (Card required, no free tier) | Service businesses wanting scheduling & dispatch, online booking, CRM, estimates, invoices, and an AI phone receptionist that books jobs. |
 
 ---
 
